@@ -12,30 +12,8 @@ $cs-gray-dark                   : #4D4F53;
 // Fonts, measure, leading and typefaces
 // ------------------------------------------------------------
 
-@font-face {
-  font-family: 'cartogothic_prolight';
-  src: url('../fonts/cartogothicpro-light-webfont.eot');
-  src: url('../fonts/cartogothicpro-light-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/cartogothicpro-light-webfont.woff') format('woff'),
-       url('../fonts/cartogothicpro-light-webfont.ttf') format('truetype'),
-       url('../fonts/cartogothicpro-light-webfont.svg#cartogothic_prolight') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'meliorroman';
-  src: url('../fonts/melior-webfont.eot');
-  src: url('../fonts/melior-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/melior-webfont.woff') format('woff'),
-       url('../fonts/melior-webfont.ttf') format('truetype'),
-       url('../fonts/melior-webfont.svg#meliorroman') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-$font-sansserif  : cartogothic_prolight, Helvetica, Arial, sans-serif;
-$font-serif      : meliorroman, Times, serif;
+$font-sansserif  : Helvetica, Arial, sans-serif;
+$font-serif      : Times, serif;
 
 // Fonts size and line height defaults for our calculations
 

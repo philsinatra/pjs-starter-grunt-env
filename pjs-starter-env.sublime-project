@@ -1,0 +1,28 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": ".",
+      "folder_exclude_patterns": [
+         ".bundle",
+         ".git",
+         ".sass-cache",
+         "node_modules",
+         "css"
+      ],
+      "file_exclude_patterns":[
+         "._*",
+         "*.bak",
+         "*.ico",
+         "*.sample",
+         "*.scssc",
+         "*.swf",
+         "*.tar",
+         "*.tgz",
+         "wp-*.php",
+         "*.zip"
+      ]
+		}
+	]
+}
